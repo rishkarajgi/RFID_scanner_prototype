@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'manager',
+   
 )
 
 MIDDLEWARE_CLASSES = (
@@ -59,7 +61,7 @@ WSGI_APPLICATION = 'rfid.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'student',
+        'NAME': 'studentinfo',
 	'USER': 'root',
 	'PASSWORD': '',
 	'HOST': '127.0.0.1',
