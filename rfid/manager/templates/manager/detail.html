@@ -1,0 +1,17 @@
+
+<style type="text/css">
+	span{
+		color:red;
+	}
+</style>
+<h1> Details </h1>
+<table>
+
+	{% for a in comb%}
+	<tr>
+		<span>{{a.0}}</span>: {{ a.1}}
+	</tr>
+	<br>
+	{% endfor %}
+
+</table>
