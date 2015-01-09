@@ -1,3 +1,6 @@
+﻿Added a php database connector as our plan B.
+
+
 Rfid_smartcard
 ==============
 
