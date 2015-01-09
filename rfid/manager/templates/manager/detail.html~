@@ -1,0 +1,3 @@
+{% for value in row %}
+	{{value}}
+{% endfor %}
