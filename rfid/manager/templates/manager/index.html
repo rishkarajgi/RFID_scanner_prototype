@@ -1,0 +1,7 @@
+<h1>Welcome. Enter your reg.no to view your details.</h1>
+<form method="POST" action={% url 'entered' %}>
+	{% csrf_token %}
+	<input type="text" name="rollno" id="rollno">
+	<br><br>
+	<input type="submit" value="View Details">
+<form>

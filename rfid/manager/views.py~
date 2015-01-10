@@ -1,13 +1,17 @@
 from django.shortcuts import render
 from manager.models import StudentData
 from django.http import Http404
-
+from django.http import HttpResponse
 
 # Create your views here.
 def detail(request, rollnumber):
     try:
-        row = StudentData.objects.get(pk=rollnumber)
+        row = StudentData.objects.get(roll_number=rollnumber)
     except Question.DoesNotExist:
         raise Http404
     return render(request, 'manager/detail.html', {'row': row})
 
+def index(request):
+	data =123	
+	return render(request,"manager/detail.html")
+	#return HttpResponse("Hello world!")

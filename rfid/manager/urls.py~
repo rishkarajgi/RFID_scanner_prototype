@@ -1,10 +1,10 @@
 from django.conf.urls import patterns, url
 
-from polls import views
+from manager import views
 
 urlpatterns = patterns('',
     # ex: /polls/
-    #url(r'^$', views.index, name='index'),
+    url(r'^abcd/$', views.index, name='index'),
     # ex: /polls/5/
     url(r'^(?P<rollnumber>\d+)/$', views.detail, name='detail'),
     # ex: /polls/5/results/
