@@ -1,0 +1,19 @@
+# This file is part of the librfid distribution
+#
+# udev rules file for supported readers
+#
+#
+
+ACTION!="add", GOTO="librfid_rules_end"
+SUBSYSTEM!="usb", GOTO="librfid_rules_end"
+
+# Omnikey 5121
+ATTRS{idVendor}=="076b", ATTRS{idProduct}=="5121", MODE="664", GROUP="plugdev"
+
+# Omnikey 5321
+ATTRS{idVendor}=="076b", ATTRS{idProduct}=="5321", MODE="664", GROUP="plugdev"
+
+# OpenPCD
+ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="076b", MODE="664", GROUP="plugdev"
+
+LABEL="librfid_rules_end"
