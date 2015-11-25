@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysincludedir=@sysincludedir@
+
+Name: librfid
+Description: librfid
+Version: 0.2.0
+Libs: -L${libdir}  -lrfid
+Cflags: -I${sysincludedir} -I${includedir}
