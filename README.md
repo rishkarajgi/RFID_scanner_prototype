@@ -1,27 +1,17 @@
-Rfid_smartcard
-==============
+Online Mess Attendance System using an RFID SmartCard
+=====================================================
 
 RFID scanner prototype for college mess attendance
 
-RFID Database Sync Problem Statement
 
 Title: NITW Database Sync with RFID Smart Card
 
-Build the framework for syncing NITW Database with RFID Smart Cards for NITW Mess Attendance
-
-
-
-Mentor: Anil Kumar Pugalia <anil_pugalia@eSrijan.com>
-
-Personal Message: “Mail me if you have any questions about the problem statement. Don’t worry, THIS IS NOT COMPLICATED!”
-
-Expected Team: Mixture of CSE and ECE/EEE students
 
 Problem Background
 NITW community has been issued RFID Smart Cards to achieve a tech-savvy NITW infrastructue. There are a huge number of possibilities for how the technology could be used, along with the NITW fraternity database. This problem is an attempt in that direction to build a framework to sync between the Database and the RFID Smart Cards, whenever used. And then, the framework is to be used for NITW mess attendance, as a proof of concept.
 
-Problem Statement
-Build a back-end to sync NITW Database and the RFID Smart Cards, through RFID reader/writer over the internet, using a computer; and build a front-end over that for NITW mess attendance.
+Problem Solution
+A back-end to sync NITW Database and the RFID Smart Cards, through RFID reader/writer over the internet, using a computer; and build a front-end over that for NITW mess attendance.
 
 Proposed Solution
 The solution could be broken up as follows:
@@ -43,7 +33,7 @@ Software Tools: Web Interface &/or Python for the Front-End, Python for HAL & Ba
 
 Data set, tools, resources useful in developing solution
 
-Documents available at the venue
+Documentation available:
 CT - API 1.1
 Contactless Smart Card Readers - DEVELOPER GUIDE
 CONTACT AND CONTACTLESS USB SMART CARD READER
@@ -72,7 +62,7 @@ Import this sql file
 NOTE:
 You can add more rows.
 Download MYSQL tutorials (http://www.tutorialspoint.com/mysql/)
-How do I connect to a MySQL Database in Python?
+
 
 
 
